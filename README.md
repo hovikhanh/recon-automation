@@ -16,6 +16,8 @@ Automated scripts for reconnaissance phase in web pentesting.
 ## 🚀 Usage
 
 ```bash
-python3 scripts/subdomain_enum.py --domain example.com
-bash scripts/ip_resolver.sh subdomains.csv
-python3 scripts/port_scanner.py --input ips.csv
+python scripts/subdomain_enum.py --domain example.com --apikey YOUR_KEY
+
+python scripts/ip_resolver.py --input data/subdomains.csv
+
+python scripts/port_scanner.py --input data/ips.csv
